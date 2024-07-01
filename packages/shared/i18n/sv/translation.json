@@ -1,0 +1,49 @@
+{
+  "assessment": "Bedömning",
+  "click_the_icon": "Klicka på Ara-ikonen för att komma igång",
+  "company_name": "Företagsnamn",
+  "digital_consultation": "Digital konsultation",
+  "ehr_system": "Journal system",
+  "transcription_too_short": "Avskriften är för kort. Måste vara minst 500 tecken.",
+  "get_ready": "Kom igång med Ara",
+  "language": {
+    "your": "Ditt språk",
+    "transcription": "Transkriptionsspråk",
+    "journal": "Journalspråk"
+  },
+  "microphone_access": "Ge Ara åtkomst till mikrofonen",
+  "microphone_access_description": "Ara behöver åtkomst till mikrofonen för att transkribera ditt samtal.",
+  "mistakes": "Ara kan göra fel. Kontrollera viktig information.",
+  "models": {
+    "ara": "Ara Whisper (snabb, låg tillgänglighet)",
+    "azure": "Azure Whisper (långsam, hög tillgänglighet)"
+  },
+  "next": "Nästa",
+  "note": "Journalanteckning",
+  "objective": "Fynd",
+  "physical_consultation": "Fysisk konsultation",
+  "pin_to_toolbar": "Fäst Ara-tillägget i verktygsfältet",
+  "plan": "Åtgärd",
+  "playground": {
+    "demo_only": "Ara Playground är endast för demonstrationsändamål.",
+    "welcome": "Välkommen till Ara Playground. Klicka på startknappen för att börja en ny transkription.",
+    "demo_version": "Detta är en demoversion av Ara-webbläsartillägget, som integreras med ditt EHR-system."
+  },
+  "regenerate": "Regenerera",
+  "send_to": "Skicka till",
+  "new_consultation": "Ny konsultation",
+  "settings": {
+    "advanced": "Avancerade inställningar",
+    "ai": "AI-inställningar",
+    "settings": "Inställningar",
+    "input_source": "Ljudkälla",
+    "transcription_algo": "Transkriptionsalgoritm"
+  },
+  "start": "Starta transkription",
+  "stop": "Stoppa transkription",
+  "subjective": "Anamnes",
+  "summary": "Sammanfattning",
+  "transcribe": "Transkribera",
+  "your_information": "Din information",
+  "your_name": "Ditt namn"
+}

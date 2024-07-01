@@ -1,0 +1,20 @@
+{
+  "extends": "plasmo/templates/tsconfig.base",
+  "exclude": ["node_modules"],
+  "include": [".plasmo/index.d.ts", "./**/*.ts", "./**/*.tsx"],
+  "compilerOptions": {
+    "paths": {
+      "*": ["node_modules/*"],
+      "~*": ["./src/*"]
+    },
+
+    "baseUrl": ".",
+    "sourceMap": true,
+    "inlineSources": true,
+
+    // Set `sourceRoot` to  "/" to strip the build path prefix
+    // from generated source code references.
+    // This improves issue grouping in Sentry.
+    "sourceRoot": "/"
+  }
+}

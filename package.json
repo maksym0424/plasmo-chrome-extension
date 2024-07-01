@@ -1,0 +1,12 @@
+{
+  "name": "ara-ai",
+  "packageManager": "pnpm@9.1.4",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "package": "turbo package"
+  },
+  "dependencies": {
+    "turbo": "latest"
+  }
+}

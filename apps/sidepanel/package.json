@@ -1,0 +1,60 @@
+{
+  "name": "sidepanel",
+  "displayName": "Ara AI",
+  "version": "0.0.1",
+  "description": "Transcribe consultations",
+  "author": "Ara AI AS",
+  "scripts": {
+    "dev": "plasmo dev",
+    "dev:firefox": "plasmo dev --target=firefox-mv2",
+    "build": "plasmo build",
+    "build:firefox": "plasmo build --target=firefox-mv2",
+    "package": "plasmo package",
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org ara-ai --project extension ./build && sentry-cli sourcemaps upload --org ara-ai --project extension ./build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/varela-round": "^5.0.13",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "@sentry/cli": "^2.32.1",
+    "@sentry/react": "^7.116.0",
+    "plasmo": "^0.87.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "shared": "workspace:*",
+    "webext-bridge": "^6.0.1",
+    "webextension-polyfill": "^0.12.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@types/chrome": "^0.0.268",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "@types/webextension-polyfill": "^0.10.7",
+    "prettier": "3.2.4",
+    "typescript": "5.3.3"
+  },
+  "manifest": {
+    "permissions": [
+      "contextMenus",
+      "offscreen"
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "src/content/pridok-injector.js"
+        ],
+        "matches": [
+          "https://epj.pridok.no/*"
+        ]
+      }
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+}

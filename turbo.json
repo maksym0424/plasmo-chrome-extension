@@ -1,0 +1,23 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**"
+      ],
+      "dependsOn": ["^build"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["^dev"]
+    },
+    "package": {
+      "outputs": [
+        ".plasmo/**"
+      ],
+      "dependsOn": ["^build"]
+    }
+  }
+}

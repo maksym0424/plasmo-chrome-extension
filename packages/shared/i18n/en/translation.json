@@ -1,0 +1,49 @@
+{
+  "assessment": "Assessment",
+  "click_the_icon": "Click the Ara icon to get started",
+  "company_name": "Company name",
+  "digital_consultation": "Digital consultation",
+  "ehr_system": "EHR system",
+  "transcription_too_short": "The transcript is too short. Must be at least 500 characters.",
+  "get_ready": "Get started with Ara",
+  "language": {
+    "your": "Your language",
+    "transcription": "Transcription language",
+    "journal": "Journal language"
+  },
+  "microphone_access": "Give Ara access to your microphone",
+  "microphone_access_description": "Ara needs access to your microphone to transcribe your voice",
+  "mistakes": "Ara can make mistakes. Check important info.",
+  "models": {
+    "ara": "Ara Whisper (fast, not always available)",
+    "azure": "Azure Whisper (slow, always available)"
+  },
+  "new_consultation": "New consultation",
+  "next": "Next",
+  "note": "Journal note",
+  "objective": "Objective",
+  "physical_consultation": "Physical consultation",
+  "pin_to_toolbar": "Pin the Ara Extension to your toolbar",
+  "plan": "Plan",
+  "playground": {
+    "demo_only": "This playground is for demo purposes only.",
+    "welcome": "Welcome to the Ara Playground. Click the start button to begin a new transcription.",
+    "demo_version": "This is a demo version of the Ara browser extension, which integrates with your EHR system."
+  },
+  "regenerate": "Regenerate",
+  "send_to": "Send to",
+  "settings": {
+    "advanced": "Advanced settings",
+    "ai": "AI settings",
+    "settings": "Settings",
+    "input_source": "Input source",
+    "transcription_algo": "Transcription algorithm"
+  },
+  "start": "Start transcription",
+  "stop": "Stop transkripsjon",
+  "subjective": "Subjective",
+  "summary": "Summary",
+  "transcribe": "Transcribe",
+  "your_information": "Your information",
+  "your_name": "Your name"
+}
